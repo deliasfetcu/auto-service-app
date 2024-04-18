@@ -1,0 +1,109 @@
+.clients-container {
+    padding: 20px;
+    background-color: #f8f9fa; 
+  }
+  
+  .clients-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .client-entry {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .client-info {
+    flex: 1;
+  }
+  
+  .client-buttons {
+    margin-left: 10px;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .add-client-button,
+  .go-back-button,
+  .cancel-button,
+  .edit-button,
+  .deactivate-button, .activate-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .add-client-button {
+    background-color: #007bff; 
+  }
+  
+  .go-back-button {
+    background-color: #6c757d; 
+  }
+  
+  .cancel-button {
+    background-color: #c61527;
+  }
+  
+  .edit-button {
+    background-color: #28a745; 
+  }
+  
+  .deactivate-button, .activate-button {
+    background-color: #ffc107; 
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  button:active {
+    transform: scale(0.95); 
+  }
+
+
+.clients-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.client-entry {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-info {
+  flex: 1;
+}
+
+.client-buttons {
+  display: flex;
+  align-items: center;
+}
+.view-deactivated-clients-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.view-deactivated-clients-button:hover {
+  background-color: #0056b3;
+}
